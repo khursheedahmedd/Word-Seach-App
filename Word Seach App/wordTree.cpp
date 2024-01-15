@@ -162,7 +162,7 @@ int wordTree::calculateHeight(Word* node) {
     int leftHeight = calculateHeight(node->getLeft());
     int rightHeight = calculateHeight(node->getRight());
 
-    return 1 + std::max(leftHeight, rightHeight);
+    return 1 + max(leftHeight, rightHeight);
 }
 
 string wordTree::findShortestWord() {

@@ -88,7 +88,11 @@ int main() {
                 break;
             }
             case 8: {
-                cout<<"\nThe height of the tree is : "<<tree->calculateHeight(tree->root);
+                int height = tree->calculateHeight(tree->root) - 1;
+                if(height > -1)
+                    cout<<"\nThe height of the tree is : "<<height;
+                else
+                    cout<<"\nThe tree is empty.";
                 break;
             }
             case 9: {
