@@ -14,7 +14,7 @@ int main() {
     int choice;
 
     do {
-        cout<<"\n******** Word Tree *********";
+        cout<<"\n***** Word Search App ******";
         cout<<"\n* 1. Insert a paragraph    *";
         cout<<"\n* 2. Insert a word         *";
         cout<<"\n* 3. Search a word         *";
